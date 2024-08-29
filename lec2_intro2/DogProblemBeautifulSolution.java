@@ -34,11 +34,6 @@
 //        for (int j = -2; j <= 2; j += 1) {
 //            int compareIndex = i + j;
 //
-//            /* avoid comparing ourself to ourself */
-//            if (j == 0) {
-//                continue;
-//            }
-//
 //            if (validIndex(dogs, compareIndex)) {
 //                if (dogs[compareIndex].weightInPounds >= dogs[i].weightInPounds) {
 //                    isBiggest = false;
